@@ -35,7 +35,7 @@ function onForm(e) {
       .catch(({ position, delay }) => {
         Notiflix.Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
       });
-
+    delayValue += stepValue
   }
 
 };
